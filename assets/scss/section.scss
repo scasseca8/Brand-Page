@@ -1,0 +1,33 @@
+.content {
+    margin-top: 10%;
+    max-width: 37.5rem;
+
+    h1 {
+        font-size: $font-h1;
+        color: $title-color;
+    }
+
+    p {
+        margin: 0.625rem 0 1.875rem;
+        color: $text-color;
+        animation-delay: 0.5s;
+    }
+
+    .down-btn {
+        padding: 0.938em 5em;
+        font-size: 1em;
+        animation-delay: 1s;
+    }
+
+}
+
+.feature-img {
+    width: 33.125rem;
+    position: absolute;
+    bottom: 0;
+    right: 10%;
+
+    &.anim {
+        animation-delay: 1.5s;
+    }
+}
